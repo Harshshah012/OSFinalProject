@@ -66,9 +66,11 @@ make test_replication
 make benchmark
 ```
 
-## Architecture
-
-### Components
+## Extra Credit
+```bash
+# Run Extra Credit Program
+make extra
+```
 
 **DHT (Distributed Hash Table)**
 - Manages topic storage and retrieval
