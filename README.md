@@ -86,12 +86,15 @@ make extra
 - **test_replication.py**: Validates topic replication
 
 
+
+
+
 ## DHT (Distributed Hash Table)
 - Manages topic storage and retrieval
 - Handles topic replication
 - Maintains peer mappings
 
-## PeerNode**
+## PeerNode
 - Manages peer connections
 - Handles message routing
 - Implements publish-subscribe logic
