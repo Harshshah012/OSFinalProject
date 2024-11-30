@@ -23,9 +23,6 @@ A decentralized peer-to-peer publisher-subscriber system built on a hypercube to
 
 ## Installation
 
-```bash
-git clone <repository-url>
-cd p2p-pubsub-system
 ```
 
 ## Usage
@@ -33,7 +30,8 @@ cd p2p-pubsub-system
 ### Starting a Peer Node
 
 ```bash
-python3 FinalProject.py <peer-id> <port>
+1. python3 FinalProject.py <peer-id> <port>
+2. make run
 ```
 
 - `peer-id`: 3-bit binary identifier (e.g., "000", "001")
@@ -124,7 +122,6 @@ Cleans up:
 
 ## Known Limitations
 
-- Maximum 8 peers (3-bit ID system)
 - Local network operation only
 - Requires manual peer connection
 - No persistent storage
