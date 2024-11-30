@@ -1,9 +1,8 @@
 # OSFinalProject
 ## Harsh Shah
 
-```markdown
-# P2P Publisher-Subscriber System with Hypercube Topology
 
+# P2P Publisher-Subscriber System with Hypercube Topology
 A decentralized peer-to-peer publisher-subscriber system built on a hypercube topology, enabling efficient message routing and fault-tolerant communication.
 
 ## Features
@@ -20,8 +19,6 @@ A decentralized peer-to-peer publisher-subscriber system built on a hypercube to
 - Python 3.7+
 - asyncio library
 - Network connectivity for peer communication
-
-```
 
 ## Usage
 
@@ -74,23 +71,6 @@ make extra
 
 
 
-```markdown
-## File Structure
-
-```
-p2p-pubsub-system/
-├── FinalProject.py          # Main implementation file
-├── FinalProjectcopy.py      # Backup copy of main file
-├── benchmark.py             # Performance testing suite
-├── ExtraCred1.py            # Extra credit implementation
-├── Makefile                 # Build and test automation
-├── test_deployment.py       # Basic deployment tests
-├── test_failure_recovery.py # Failure recovery tests
-├── test_node_recovery.py    # Node recovery tests
-├── test_replica_failover.py # Replica failover tests
-└── test_replication.py      # Replication system tests
-```
-
 ### Core Files:
 
 - **FinalProject.py**: Contains the main P2P system implementation with DHT and PeerNode classes
@@ -104,15 +84,14 @@ p2p-pubsub-system/
 - **test_node_recovery.py**: Verifies node state recovery
 - **test_replica_failover.py**: Tests failover mechanisms
 - **test_replication.py**: Validates topic replication
-```
 
 
-**DHT (Distributed Hash Table)**
+## DHT (Distributed Hash Table)
 - Manages topic storage and retrieval
 - Handles topic replication
 - Maintains peer mappings
 
-**PeerNode**
+## PeerNode**
 - Manages peer connections
 - Handles message routing
 - Implements publish-subscribe logic
