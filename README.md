@@ -21,8 +21,6 @@ A decentralized peer-to-peer publisher-subscriber system built on a hypercube to
 - asyncio library
 - Network connectivity for peer communication
 
-## Installation
-
 ```
 
 ## Usage
