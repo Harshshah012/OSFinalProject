@@ -72,6 +72,32 @@ make benchmark
 make extra
 ```
 
+**File Structure**
+text
+├── FinalProject.py          # Main implementation file
+├── FinalProjectcopy.py      # Backup copy of main file
+├── benchmark.py             # Performance testing suite
+├── ExtraCred1.py           # Extra credit implementation
+├── Makefile                # Build and test automation
+├── test_deployment.py      # Basic deployment tests
+├── test_failure_recovery.py # Failure recovery tests
+├── test_node_recovery.py   # Node recovery tests
+├── test_replica_failover.py # Replica failover tests
+└── test_replication.py     # Replication system tests
+
+**Core Files:**
+1. FinalProject.py: Contains the main P2P system implementation with DHT and PeerNode classes
+2. benchmark.py: Performance testing and metrics collection
+3. ExtraCred1.py: Additional features implementation
+
+**Test Suite:**
+1. test_deployment.py: Validates basic system deployment
+2. test_failure_recovery.py: Tests system resilience
+3. test_node_recovery.py: Verifies node state recovery
+4. test_replica_failover.py: Tests failover mechanisms
+5. test_replication.py: Validates topic replication
+
+
 **DHT (Distributed Hash Table)**
 - Manages topic storage and retrieval
 - Handles topic replication
